@@ -120,11 +120,18 @@ This project demonstrates the integration of Payload CMS (backend) with a React 
 ### Blog List
 Below is a screenshot of the homepage displaying the list of blog posts, each with the title, cover image, and author name:
 
-![Blog List](![image](https://github.com/user-attachments/assets/b959660c-ab30-448b-a4af-a16275fdcd09)
-)
+![image](https://github.com/user-attachments/assets/24a46231-05a6-4571-841e-64443ed19f99)
+
+![image](https://github.com/user-attachments/assets/4e12a000-28ad-4fd7-bd65-cb8f20d2fbd1)
+
+
+![image](https://github.com/user-attachments/assets/f135db57-c31b-43df-9b69-f11479ec8b9a)
+
+
 
 ### Admin Panel
 The Payload CMS admin panel allows users to manage posts and authors. Here’s a screenshot of the admin panel:
 
-![Admin Panel](screenshots/admin-panel.png)
+![image](https://github.com/user-attachments/assets/65aee105-34b1-4f59-8fb3-45d4e8fa880d)
+
 
