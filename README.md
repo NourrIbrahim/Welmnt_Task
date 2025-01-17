@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/794dd92a-fb64-4ed9-a58d-e40b2376cd51)# Payload CMS Blog with React Frontend
+# Payload CMS Blog with React Frontend
 
 This project demonstrates the integration of Payload CMS (backend) with a React frontend to create a blog. The backend is responsible for managing posts and authors, while the frontend fetches and displays blog posts dynamically.
 
