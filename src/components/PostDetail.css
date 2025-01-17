@@ -1,0 +1,228 @@
+/* Container */
+.post-detail-container {
+    max-width: 1000px;
+    margin: 80px auto;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+    font-family: 'Lora', serif;
+    color: #2c3e50;
+    line-height: 1.7;
+    font-size: 1.15rem;
+    margin-top:20px;
+  }
+
+  .post-detail-header {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .post-detail-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #34495e;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.3;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  }
+
+.post-detail-subtitle {
+    font-size: 1.1rem;
+    color: #7f8c8d; 
+    margin-bottom: 10px;
+    font-style: italic; 
+    letter-spacing: 1px;
+    display: inline-block;
+    border-left: 4px solid #bdc3c7;
+    padding-left: 15px; 
+  }
+  
+  .post-detail-title + .post-detail-subtitle {
+    margin-top: 5px;
+  }
+  
+
+  .post-detail-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+
+  .post-detail-image-wrapper {
+    flex: 1 1 50%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-detail-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    filter: brightness(80%);
+  }
+  
+  .post-detail-image:hover {
+    transform: translateY(-10px) rotate(3deg);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.2);
+    filter: brightness(100%);
+  }
+  
+  .post-detail-image-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+  }
+
+  .post-detail-text {
+    flex: 1 1 45%;
+    padding-top: 10px;
+  }
+  
+  .post-detail-body {
+    font-size: 1.125rem;
+    color: #34495e;
+    line-height: 1.8;
+    margin-bottom: 30px;
+  }
+  
+  .post-detail-paragraph {
+    margin-top: -10px;
+    text-align: justify;
+    font-size: 1.1rem;
+    text-indent: 30px;
+
+  }
+  
+  .post-detail-author {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    padding-top: 30px;
+    border-top: 1px solid #ecf0f1;
+  }
+  
+  .post-detail-author-image-wrapper {
+    flex-shrink: 0;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-detail-author-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .post-detail-author-info {
+    flex-grow: 1;
+  }
+  
+  .post-detail-author-name {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #34495e;
+    margin-bottom: 5px;
+  }
+  
+  .post-detail-author-bio {
+    font-size: 1rem;
+    color: #7f8c8d;
+    text-align: justify;
+    line-height: 1.6;
+  }
+
+  .post-detail-cta {
+    margin-top: 30px;
+    padding: 15px 25px;
+    background: #34495e;
+    color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .post-detail-cta:hover {
+    background: #2c3e50;
+    transform: translateY(-5px);
+  }
+  
+  .post-detail-cta:active {
+    transform: translateY(2px);
+  }
+
+  .post-detail-loading {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #7f8c8d;
+  }
+ 
+  @media (max-width: 768px) {
+    .post-detail-container {
+      padding: 20px;
+    }
+  
+    .post-detail-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .post-detail-image-wrapper {
+      width: 80%;
+      margin-bottom: 30px;
+    }
+  
+    .post-detail-text {
+      width: 100%;
+    }
+  
+    .post-detail-author {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .post-detail-author-image-wrapper {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 15px;
+    }
+  }
+.back-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #5ddec2;
+    cursor: pointer;
+    margin-bottom: 1rem; 
+    transition: color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    color: #b3f8e9; 
+  }
+  
+  .back-button:focus {
+    outline: none;
+    color: #b3f8e9; 
+  }
+  
