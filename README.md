@@ -1,4 +1,4 @@
-# Payload CMS Blog with React Frontend
+![image](https://github.com/user-attachments/assets/794dd92a-fb64-4ed9-a58d-e40b2376cd51)# Payload CMS Blog with React Frontend
 
 This project demonstrates the integration of Payload CMS (backend) with a React frontend to create a blog. The backend is responsible for managing posts and authors, while the frontend fetches and displays blog posts dynamically.
 
@@ -10,6 +10,7 @@ This project demonstrates the integration of Payload CMS (backend) with a React 
 - [Admin Panel](#admin-panel)
 - [Running the Project Locally](#running-the-project-locally)
 - [Key Decisions Made During Development](#key-decisions-made-during-development)
+- [Screenshots](#screenshots)
 
 ## Setup and Installation
 
@@ -61,7 +62,6 @@ This project demonstrates the integration of Payload CMS (backend) with a React 
 - The Payload CMS admin panel allows adding, editing, and deleting posts and authors.
 - The admin panel should be accessible at `http://localhost:3000/admin` once the backend is running.
 
-
 ## Running the Project Locally
 
 1. **Clone the Repository**:
@@ -97,7 +97,6 @@ This project demonstrates the integration of Payload CMS (backend) with a React 
     - The frontend will be available at `http://localhost:3001`.
     - The Payload CMS admin panel will be available at `http://localhost:3000/admin`.
    
-
 ## Key Decisions Made During Development
 
 1. **Payload CMS**:
@@ -115,4 +114,17 @@ This project demonstrates the integration of Payload CMS (backend) with a React 
     - Used Payload CMS’s built-in admin panel for content management to allow non-developers to easily add, edit, and delete posts and authors.
 
 ---
+
+## Screenshots
+
+### Blog List
+Below is a screenshot of the homepage displaying the list of blog posts, each with the title, cover image, and author name:
+
+![Blog List](![image](https://github.com/user-attachments/assets/b959660c-ab30-448b-a4af-a16275fdcd09)
+)
+
+### Admin Panel
+The Payload CMS admin panel allows users to manage posts and authors. Here’s a screenshot of the admin panel:
+
+![Admin Panel](screenshots/admin-panel.png)
 
