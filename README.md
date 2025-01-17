@@ -72,7 +72,7 @@ This project demonstrates the integration of Payload CMS (backend) with a React 
       ```
 
 2. **Backend (Payload CMS)**:
-    - Navigate to the backend folder and install dependencies:
+    - Navigate to the backend folder (server) and install dependencies:
       ```bash
       cd backend
       npm install
@@ -83,7 +83,7 @@ This project demonstrates the integration of Payload CMS (backend) with a React 
       ```
 
 3. **Frontend (React Application)**:
-    - Navigate to the frontend folder and install dependencies:
+    - Navigate to the frontend folder (new-client) and install dependencies:
       ```bash
       cd frontend
       npm install
