@@ -1,11 +1,16 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Payload CMS + React Blog
 
-## Available Scripts
+This project consists of a Payload CMS backend and a React frontend for displaying blog posts and their authors. The backend manages blog content (posts, authors) and exposes a public API to interact with it. The frontend fetches data from the backend and displays it dynamically.
 
-In the project directory, you can run:
+## Table of Contents
+
+1.Backend Setup
+2.Frontend Setup
+3.Key Decisions Made During Development
+4.How to Test
+5.Running the Project Locally
+6.Screenshots
 
 ### `npm start`
 
